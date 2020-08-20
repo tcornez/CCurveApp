@@ -35,7 +35,7 @@ public class C_curveFrame extends JFrame {
 
 		levelLabel = new JLabel("Level: ");
 		levelField = new JTextField(10); // FIELD WIDTH OF 10
-		levelField.setText("" + 2); // INITIALIZE THE TEXT FIELD TO 2
+		levelField.setText("" + 12); // INITIALIZE THE TEXT FIELD TO 12
 		button = new JButton("Create C-curve");
 		// TASK 4: ADD EACH GUI ELEMENT TO THE PANEL
 		panel.add(levelLabel);
@@ -45,7 +45,7 @@ public class C_curveFrame extends JFrame {
 		// TASK 5: INSTANTIATE THE DRAWING COMPONENT AND ADD IT TO THE JPANEL
 		cCurveDrawComponent = new C_curveComponent();
 		cCurveDrawComponent.setPreferredSize(new Dimension(700, 700));
-		cCurveDrawComponent.setLevel(2); // 2 is the default level
+		cCurveDrawComponent.setLevel(12); // 12 is the default level
 		panel.add(cCurveDrawComponent);
 
 		// TASK 7: ADD THE COMPLETED PANEL TO THE FRAME WINDOW
